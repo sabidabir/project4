@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{}
+img {
+    max-width: 100%;
+}
+header {
+    background: gainsboro;
+}
+nav {
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li {
+}
+nav ul li a {padding: 0px 10px;text-decoration: none;color: black;font-size: 18px;font-family: serif;}
+nav ul li a img {
+    width: 40px;
+}
+
+.formsection {
+    padding: 70px 0;
+    background-image: url(../images/backimage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+.form-box {width: 700px;margin: auto;text-align: center;background-color: #dcdcdc8f;}
+h1{}
+p{}
+form {
+    text-align: left;
+    margin-top: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"]
+{
+    width: 100%;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+    border: 1px solid gainsboro;
+}
+input[type="file"]
+{margin-bottom: 0;
+}
+label {}
+label b{
+    display: block;
+    margin-top: 10px;
+}
+input[type="submit"]{
+
+padding: 7px;
+
+margin-top: 10px;
+
+border: 1px solid gainsboro;
+
+background: gainsboro;
+font-size: 10px
+cursor:pointer;
+}
+input[type="submit"]:hover{
+	background: transparent;
+}
+input: focus{
+	outline:none;
+}
+::placeholder{
+color: gainsboro;
+}
+:: selection{
+color:gainsboro;
+}
+
+
